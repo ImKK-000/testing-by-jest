@@ -1,0 +1,23 @@
+{
+  "name": "testing-by-jest",
+  "version": "0.0.1",
+  "description": "Testing by Jest",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.3",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "scripts": {
+    "test": "npx jest --watch"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
