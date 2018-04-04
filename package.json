@@ -14,10 +14,5 @@
   },
   "scripts": {
     "test": "npx jest --watch"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.jsx?$": "babel-jest"
-    }
   }
 }
